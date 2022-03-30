@@ -252,13 +252,13 @@ form div{
 }
 #tutors_1 div{
     margin:5px;
-    width:22vw;
-    height:22vw;
+    width:18vw;
+    height:18vw;
     text-align: center;
 }
 #tutors_1 div div{
-    width:22vw;
-    height:21vw;
+    width:16vw;
+    height:17vw;
     background-color:gray;
     border-radius:50%;
 }
