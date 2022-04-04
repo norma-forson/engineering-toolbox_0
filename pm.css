@@ -70,9 +70,10 @@ section{
     margin-top:10vh;
     margin-left:5vw;
 }
-#home_1 button{
+
+#home_1 a button {
+    margin-left: 5vw;
     margin-top:5vh;
-    margin-left:5vw;
     padding:20px;
     border-radius:15px;
     color:white;
@@ -105,7 +106,7 @@ section{
     float:right;
     
 }
-#learn div button{
+#learn div a button{
     margin-left: 5vh;
     margin-top:15vh;
     padding:20px;
@@ -267,7 +268,7 @@ form div{
     height:inherit;
     border-radius:50%;
 }
-#tutors_1 div button{
+#tutors_1 div a button{
     margin-top:20px;
     padding:20px;
     width:98%;
@@ -283,7 +284,7 @@ footer{
     bottom:0px;
 }
 footer div{
-    width: 25%;
+    
     float:right;
     height: inherit;
     text-align: center;
@@ -293,4 +294,14 @@ footer div{
 }
 footer div img{
     margin:0px 15px;
+}
+#videos div{
+    
+    display:flex;
+    height:100vh;
+}
+#videos div iframe{
+    width:70%;
+    height:70%;
+    margin:auto;
 }
