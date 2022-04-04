@@ -72,13 +72,15 @@ section{
 }
 
 #home_1 a button {
-    margin-left: 5vw;
+    
+    margin-left: 5vh;
     margin-top:5vh;
     padding:20px;
     border-radius:15px;
     color:white;
     background-color:rgb(171, 216, 238);
     border-color:rgb(171, 216, 238);
+    
 }
 #home_2{
     width:50vw;
