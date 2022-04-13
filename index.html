@@ -13,6 +13,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <script src="pm.js"></script>
     </head>
     <body>
         <div id="header">
@@ -21,10 +23,10 @@
             </div>
             <b>
             <ul>
+                <a href="#profile"><li>PROFILE</li></a>
                 <a href="#home"><li>HOME</li></a>
                 <a href="#learn"><li>LEARN</li></a>
                 <a href="#resources"><li>RESOURCES</li></a>
-                <a href="#profile"><li>PROFILE</li></a>
                 <a href="#book_session"><li>BOOK A SESSION</li></a>
             </ul>
         </b>
@@ -33,6 +35,38 @@
 
         <div id="main">     
     </div>
+    <section id="profile">
+        <div>
+            <img src="">
+        </div>
+        <form>
+            <h1>Sign In</h1>
+            <div>
+            <b>
+            <label id="name-label" for="name"> Name
+                <input type="text" placeholder="Name" id="name" required>
+            </label>
+            </div>
+
+            <div>
+            <label id="email-label" for="email"> Email
+                <input id="email" type="email" placeholder="Email" required>
+            </label>
+            </div>
+            <div>
+            <label id="number-label" for="number"> Year Group
+                <input id="number" type="number" placeholder="Year Group" min="2020" max="2025" required>
+            </label>
+            </div>
+            </b>
+
+            <button id="box" type="submit" onclick="mar()">LOG IN</button>
+        </form>
+        <div>
+            <img src="">
+        </div>
+    </section>
+
     <section id="home">
         <div id="home_1">
             <h1>Engineering Onboarding Program</h1>
@@ -99,38 +133,6 @@
         <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
         <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
         </b>
-        </div>
-    </section>
-
-    <section id="profile">
-        <div>
-            <img src="">
-        </div>
-        <form>
-            <h1>Sign In</h1>
-            <div>
-            <b>
-            <label id="name-label" for="name"> Name
-                <input type="text" placeholder="Name" id="name" required>
-            </label>
-            </div>
-
-            <div>
-            <label id="email-label" for="email"> Email
-                <input id="email" type="email" placeholder="Email" required>
-            </label>
-            </div>
-            <div>
-            <label id="number-label" for="number"> Year Group
-                <input id="number" type="number" placeholder="Year Group" min="18" max="99" required>
-            </label>
-            </div>
-            </b>
-
-            <button>LOG IN</button>
-        </form>
-        <div>
-            <img src="">
         </div>
     </section>
 
