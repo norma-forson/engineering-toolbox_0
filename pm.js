@@ -1,7 +1,11 @@
-const name= document.getElementById("name");
-const email= document.getElementById("email");
-function mar(){
-    document.querySelector("box");
-    console.log("tada");
-    
+function myFunction(){
+    var un =document.forms["myForm"]["name"].value;
+    var pw =document.forms["myForm"]["Pass"].value;
+    if((un == "student" && pw=="1234")){
+        window.location.href="index.html";
+    }
+    else{
+        alert("Invalid Username and password");
+       
+    }
 }
