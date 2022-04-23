@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,168 +16,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <script src="pm.js"></script>
-    </head>
-    <body>
-        <div id="header">
-            <div id="header_img1">
-                <img id="logo" src="6.png">
-            </div>
-            <b>
-            <ul>
-                <a href="#home"><li>HOME</li></a>
-                <a href="#learn"><li>LEARN</li></a>
-                <a href="#resources"><li>RESOURCES</li></a>
-                <a href="#book_session"><li>BOOK A SESSION</li></a>
-            </ul>
-        </b>
-        </div>
+
+        <!-- <script>
+            function myFunction(){
+                var un =document.forms["myForm"]["name"].value;
+                var pw =document.forms["myForm"]["Pass"].value;
+                if((un == "student" && pw=="1234")){
+                    window.location.href="index.html";
+                }
+                else{
+                    alert("Invalid Username and password");
+                   
+                }
+            }
+
+        </script> -->
+
         
+    </head>
 
-        <div id="main">     
+<body>
+    <div id="header">
+        <div id="header_img1">
+            <img id="logo" src="6.png">
+        </div>
     </div>
-    
 
-    <section id="home">
-        <div id="home_1">
-            <h1>Engineering Onboarding Program</h1>
-            <h4>Access helpful engineering related videos and resources, and meet seniors as students as tutors for guidance on your early engineering journey.</h4>
-            <a href="#learn"><button>START LEARNING</button></a>
-            
-        </div>
-        <div id="home_2">
-            <img src="7.png">
-        </div>
-    </section>
-
-    <section id="learn">
-        <div id="learn_1">
-            <h1> 3D CAD</h1>
-            <div id="learn_1_1">
-                <b><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At distinctio, quia dolorum maxime inventore minima enim rerum fugiat aliquam praesentium.</p></b>
-                <img id="img4" src="10.png">
-            </div>
-            <a href="#circuits"><button>LET'S GO</button></a>
-        </div>
-
-        <div id="learn_2">
-            <h1> Electronics</h1>
-            <div id="learn_1_1">
-                <b><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At distinctio, quia dolorum maxime inventore minima enim rerum fugiat aliquam praesentium.</p></b>
-                <img id="img4" src="8.png">
-            </div>
-            <a href="#cad"><button>LET'S GO</button></a>
-        </div>
-    </section>
-
-    <section id="resources">
-        <h1>Resources</h1>
-        <div id="resources_1">
+    <section id="profile">
         <div>
-            <div></div>
-            <img>
-            <button>DOWNLOAD</button>
-            <h4>CAD textbook</h4>
+            <img src="">
         </div>
-        <div>
-            <div></div>
-            <img>
-            <button>DOWNLOAD</button>
-            <h4>Circuits textbook</h4>
-        </div>
-        <div>
-            <div></div>
-            <img>
-            <button>DOWNLOAD</button>
-            <h4>CAD Examples</h4>
-        </div>
-        <div>
-            <div></div>
-            <img>
-            <button>DOWNLOAD</button>
-            <h4>Arduino handbook</h4>
-        </div>
-        </div>
-        <div id="links">
-        <b>
-        <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
-        <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
-        <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
-        </b>
-        </div>
-    </section>
-
-    <section id="book_session">
-        <div id="book_session_1">
-            <div id="book_session_1_1">
-                <h1>Book a Session</h1>
-                <h4>Book a session with a tutor</h4>
-                <a href="#tutors"><button>BOOK SESSION</button></a>
-            </div>
-            <div id="book_session_1_2">
-                <h1>Announcements</h1>
-                <h4>Next General Meeting:Wednesday 16th February 2022</h4>
-            </div>
-        </div>
-
-        <div id="book_session_2">
-            <div id="img1">
-                <img src="9.png">
-            </div>
-            
-        </div>
-    </section>
-   
-    <section id="tutors">
-        <h1>Meet Your Tutors</h1>
-        <div id="tutors_1">
-        <div>
+       
+        <form name="myForm" method="post">
+            <h1>Sign In</h1>
             <div>
-                <img src="13.png">
+                <label id="name-label" for="name">Name</label> 
+                <input type="text" name="name" id="name" placeholder="Name" required>
             </div>
-            <h4>Tawiah Ndede</h4>
-            <a href="mailto:kwaw.ndede@ashesi.edu.gh"><button>BOOK</button></a>
-        </div>
-        <div>
-            <div><img src="14.png"></div>
-            
-            <h4>Kojo Acquah</h4>
-            <a href="mailto:kojo.acquah@ashesi.edu.gh"><button>BOOK</button></a>
-        </div>
-        <div>
-            <div><img src="15.png"></div>
 
-            <h4>Keziah Boamah</h4>
-            <a href="mailto:keziah.boamah@ashesi.edu.gh"><button>BOOK</button></a>
-        </div>
-        <div>
-            <div><img src="16.png"></div>
+            <div>
+                <label id="email-label" for="name">Email</label> 
+                <input type="text" name="email" id="email" placeholder="Ashesi Email" required>
+            </div>
             
-            <h4>Kuzivaishe Chibiso</h4>
-            <a href="mailto:kuzivaishe.chibiso@ashesi.edu.gh"><button>BOOK</button></a>
-        </div>
+            <div>
+            <label>Year Group</label>
+            <input type="text" name="YearGroup" class="inputText" placeholder="Year Group eg. 2022">
+            </div>
+
+
+            <button type="button" name="log" id="logbutton" value="login" onclick="myFunction()">LOGIN</button>
+
+
+        </form>
+
         <div>
-            <div><img src="17.png"></div>
-            
-            <h4>Nathaniel Oppong</h4>
-            <a href="mailto:nathaniel.oppong@ashesi.edu.gh"><button>BOOK</button></a>
-        </div>
+            <img src="">
         </div>
     </section>
-
-    <section id="videos">
-        <div id="cad">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PhlPgQ9592I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>   </iframe>
-        </div>
-        <div id="circuits">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OfNn8qsWLhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </section>
-    
-    <footer>
-        <div>
-            <a><img id="img2" src="11.png"></a>
-            <a><img id="img3" src="12.png"></a>
-        </div>
-    </footer>
-    </body>
-</html>
+</body>
