@@ -5,6 +5,9 @@
     --font2:Raleway;
     
 }
+body{
+    width:100vw;
+}
 h1{
     font-family:var(--font1);
     font-size:4rem;
@@ -24,7 +27,7 @@ p{
 }
 
 #header{
-    width:100%;
+    width:100vw;
     height:8vw;
     display:flex;
     position:fixed;
@@ -307,4 +310,90 @@ footer div img{
     width:70%;
     height:70%;
     margin:auto;
+}
+
+@media(max-width:500px){
+    body{
+        width:100%;
+    }
+    h1{
+        font-family:var(--font1);
+        font-size:2rem;
+    }
+    header{
+        width:100vw;
+    }
+    #header ul a{
+        font-size:12px;
+    }
+    #home{
+        background-color:rgb(222, 230, 232);
+    }
+    
+    #learn{
+        display:flex;
+        flex-direction:column;
+        height:100%;
+    }
+    #resources{
+        height:102%;
+        background-color:rgb(222, 230, 232);
+    }
+    #resources_1{
+        display:flex;
+        flex-direction:column;
+        width:80%;
+        margin:0 auto;
+    }
+    #resources_1 div{
+        width:90%;
+        height:400px;
+        margin:30px 10px;
+    }
+    #resources_1 div div{
+        width:100%;
+        height:60%;
+    }
+    #resources_1 div button{
+        width: 100%;
+        margin: 0 10px;
+
+    }
+    #resources_1 div h4{
+        margin: 10px 20px;
+    }
+    #links{
+        display:none;
+    }
+    #tutors{
+        height:100%;
+        background-color:rgb(222, 230, 232);
+    }
+    #tutors_1{
+        display:flex;
+        flex-direction:column;
+        width:80%;
+        margin:0 auto;
+    }
+    #tutors_1 div{
+        width:90%;
+        height:400px;
+        margin:30px 10px;
+    }
+    #tutors_1 div div{
+        width:90%;
+        height:65%;
+    }
+    #tutors_1 div button{
+        width: 100%;
+        margin: 0 10px;
+    }
+    #tutors_1 div h4{
+        margin: 10px 20px;
+    }
+    #videos{
+        height:100%;
+    }
+
+
 }
