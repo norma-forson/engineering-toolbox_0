@@ -394,6 +394,9 @@ footer div img{
     #videos{
         height:100%;
     }
-
+    form{
+        margin: auto;
+        width: 70%;
+    }
 
 }
