@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Norma Forson</title>
         <link href="pm.css" type="text/css" rel="stylesheet">
+        <!-- <link href="test.css" type="text/css" rel="stylesheet"> -->
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +14,33 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+        <!--  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  
+        <!--  -->
         <script src="pm.js"></script>
     </head>
     <body>
-        <div id="header">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <img id="logo" src="6.png">
+            <label class="logo"></label>
+            <ul>
+              <a href="#home"><li>HOME</li></a>
+              <a href="#learn"><li>LEARN</li></a>
+              <a href="#resources"><li>RESOURCES</li></a>
+              <a href="#book_session"><li>BOOK A SESSION</li></a>
+              <a href="#feedback"><li>FEEDBACK</li></a>
+          </ul>
+          </nav>
+
+        <!-- <div id="header">
             <div id="header_img1">
                 <img id="logo" src="6.png">
             </div>
@@ -27,14 +50,11 @@
                 <a href="#learn"><li>LEARN</li></a>
                 <a href="#resources"><li>RESOURCES</li></a>
                 <a href="#book_session"><li>BOOK A SESSION</li></a>
+                <a href="#feedback"><li>FEEDBACK</li></a>
             </ul>
         </b>
-        </div>
-        
+        </div> -->
 
-        <div id="main">     
-    </div>
-    
 
     <section id="home">
         <div id="home_1">
@@ -72,37 +92,39 @@
         <h1>Resources</h1>
         <div id="resources_1">
         <div>
-            <div></div>
-            <img>
-            <button>DOWNLOAD</button>
+            <div><img src="19.jpeg"></div>
+            
+            <button><a target="_blank" href="https://b-ok.africa/book/5010552/cbac64" download>DOWNLOAD</a></button>
             <h4>CAD textbook</h4>
         </div>
         <div>
-            <div></div>
-            <img>
-            <button>DOWNLOAD</button>
+            <div><img src="18.jpeg"></div>
+            <button><a target="_blank" href="https://b-ok.africa/book/2776304/d1f602" download>DOWNLOAD</a></button>
             <h4>Circuits textbook</h4>
         </div>
-        <div>
+        <!-- <div>
             <div></div>
             <img>
-            <button>DOWNLOAD</button>
+            <button><a href="" download>DOWNLOAD</a></button>
             <h4>CAD Examples</h4>
         </div>
         <div>
             <div></div>
             <img>
-            <button>DOWNLOAD</button>
+            <button><a href="" download>DOWNLOAD</a></button>
             <h4>Arduino handbook</h4>
+        </div> -->
+
         </div>
-        </div>
-        <div id="links">
+
+
+        <!-- <div id="links">
         <b>
         <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
         <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
         <a>https://www.ahsesi.edu.gh/about/192-academics/engineering.html</a>
         </b>
-        </div>
+        </div> -->
     </section>
 
     <section id="book_session">
@@ -114,7 +136,7 @@
             </div>
             <div id="book_session_1_2">
                 <h1>Announcements</h1>
-                <h4>Next General Meeting:Wednesday 16th February 2022</h4>
+                <h4>Please help us out with feedback by filling this <span><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdpK3G3O1p8DlPTsnRFD1B5LGP8zb1YHiWdJNGgDg8wt2oLsA/viewform?usp=sf_link">form.</a></span></h4>
             </div>
         </div>
 
@@ -164,12 +186,21 @@
     </section>
 
     <section id="videos">
-        <div id="cad">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PhlPgQ9592I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>   </iframe>
-        </div>
+        <h1>Circuits</h1>
         <div id="circuits">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OfNn8qsWLhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PhlPgQ9592I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLtgWYoDwZTHQVTmox9-yikcD-hCirpmNJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </section>
+<section id="videos">
+    <h1>CAD</h1>
+        <div id="cad">
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/OfNn8qsWLhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLtgWYoDwZTHSsiB0-HvuGHgwZ67z3TtrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>    
         </div>
+    </section>
+    <section id="feedback">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpK3G3O1p8DlPTsnRFD1B5LGP8zb1YHiWdJNGgDg8wt2oLsA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
     
     <footer>
